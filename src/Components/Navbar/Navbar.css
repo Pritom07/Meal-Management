@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
+
+.meal {
+    font-family: "Oleo Script", serif;
+    font-weight: 700;
+    margin-left: 3%;
+    text-wrap: nowrap;
+}
+
+.sidebar>a.active {
+    color: green;
+    text-decoration: underline;
+}
