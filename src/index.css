@@ -14,3 +14,9 @@ body {
     margin: 0 auto;
     background-color: blanchedalmond;
 }
+
+.toastBody{
+    font-family: "Atlas Grotesk Web", Arial, Helvetica, sans-serif;
+    font-size: 1.25rem !important;
+    font-weight: 700;
+}

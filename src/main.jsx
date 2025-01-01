@@ -1,5 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import { ToastContainer } from 'react-toastify';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -11,7 +12,6 @@ import Recipes from './Components/Recipes/Recipes';
 import Statistics from './Components/Statistics/Statistics';
 import Homies from './Components/Homies/Homies';
 import Details from './Components/Details/Details';
-
 
 const router = createBrowserRouter([
   {
@@ -47,6 +47,17 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <ToastContainer position="top-right"
+      autoClose={3000}
+      hideProgressBar={false}
+      newestOnTop={false}
+      closeOnClick={false}
+      rtl={false}
+      pauseOnFocusLoss
+      draggable
+      pauseOnHover
+      theme="colored"
+      bodyClassName="toastBody"></ToastContainer>
     <RouterProvider router={router} />
   </StrictMode>,
 )

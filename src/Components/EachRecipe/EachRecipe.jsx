@@ -1,11 +1,13 @@
 import PropTypes from 'prop-types';
 import { useNavigate } from 'react-router-dom';
+import { toast } from 'react-toastify';
 
 const EachRecipe = ({ recipe }) => {
     const { idMeal, strMealThumb, strMeal } = recipe;
     const navigate = useNavigate();
     const handledetails = () => {
         navigate(`/Homies/EachRecipe/${idMeal}`)
+        toast.success(`Details of ${strMeal}`)
     }
     return (
         <div>
