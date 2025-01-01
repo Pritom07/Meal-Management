@@ -18,7 +18,7 @@ const EachRecipe = ({ recipe }) => {
                 <div className="card-body flex-grow -mt-5">
                     <h2 className="text-center text-2xl font-semibold">{strMeal}</h2>
                 </div>
-                <button onClick={handledetails} className='bg-[#8F00FF] text-white p-2 mx-4 mb-4 rounded-3xl font-semibold -mt-4'>See Details</button>
+                <button onClick={handledetails} className='bg-[#8F00FF] text-white p-2 mx-4 mb-4 rounded-3xl font-semibold -mt-4 transition ease-in-out delay-90 hover:-translate-y-1 hover:scale-110 duration-300'>See Details</button>
             </div>
         </div>
     );

@@ -54,7 +54,7 @@ const Homies = () => {
                                     />
                                 </div>
                                 <div className="indicator">
-                                    <button onClick={searching} className="btn join-item bg-[#8F00FF] text-white hover:bg-[#8F00FF]">
+                                    <button onClick={searching} className="btn join-item bg-[#8F00FF] text-white hover:bg-[#8F00FF] transition ease-in-out delay-90 hover:-translate-y-1 hover:scale-110 duration-300">
                                         Search
                                     </button>
                                 </div>
