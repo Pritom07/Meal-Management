@@ -44,25 +44,25 @@ const Homies = () => {
                     </div>
                 ) : (
                     <div className="mx-3 container px-3">
-                        <div className="m-10 flex items-center justify-center">
-                            <div className="join px-2">
-                                <div>
+                        <div className="m-4 flex flex-col sm:flex-row items-center justify-center">
+                            <div className="join w-full sm:w-auto flex items-center">
+                                <div className="flex-grow">
                                     <input
-                                        className="input input-bordered join-item"
+                                        className="input input-bordered join-item w-full sm:w-auto p-2 text-sm sm:text-base"
                                         placeholder="Search"
                                         onChange={(event) => Setinput(event.target.value)}
                                     />
                                 </div>
-                                <div className="indicator">
-                                    <button onClick={searching} className="btn join-item bg-[#8F00FF] text-white hover:bg-[#8F00FF] transition ease-in-out delay-90 hover:-translate-y-1 hover:scale-110 duration-300">
-                                        Search
-                                    </button>
+                                <div>
+                                    <button
+                                        onClick={searching}
+                                        className="btn join-item w-full sm:w-auto bg-[#8F00FF] text-white hover:bg-[#8F00FF] transition ease-in-out delay-90 hover:-translate-y-1 hover:scale-110 duration-300">Search</button>
                                 </div>
                             </div>
                         </div>
                         <div>
                             {
-                                (notfounditem) ? <Norecipefound></Norecipefound> : (<div className="grid lg:grid-cols-4 md:grid-cols-3  gap-6">
+                                (notfounditem) ? <Norecipefound></Norecipefound> : (<div className="grid lg:grid-cols-4 md:grid-cols-3 gap-6 mt-6">
                                     {filteredRecipes.map(recipe => (
                                         <EachRecipe key={recipe.idMeal} recipe={recipe} />
                                     ))}
