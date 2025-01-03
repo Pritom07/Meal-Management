@@ -1,0 +1,68 @@
+{
+    "countries": [
+        {
+            "country": "Japanese",
+            "foodPopularity": 92
+        },
+        {
+            "country": "Croatian",
+            "foodPopularity": 65
+        },
+        {
+            "country": "Turkish",
+            "foodPopularity": 85
+        },
+        {
+            "country": "Egyptian",
+            "foodPopularity": 70
+        },
+        {
+            "country": "Filipino",
+            "foodPopularity": 75
+        },
+        {
+            "country": "Chinese",
+            "foodPopularity": 95
+        },
+        {
+            "country": "Tunisian",
+            "foodPopularity": 60
+        },
+        {
+            "country": "American",
+            "foodPopularity": 90
+        },
+        {
+            "country": "Italian",
+            "foodPopularity": 98
+        },
+        {
+            "country": "Canadian",
+            "foodPopularity": 72
+        },
+        {
+            "country": "Indian",
+            "foodPopularity": 94
+        },
+        {
+            "country": "Dutch",
+            "foodPopularity": 68
+        },
+        {
+            "country": "Greek",
+            "foodPopularity": 80
+        },
+        {
+            "country": "British",
+            "foodPopularity": 75
+        },
+        {
+            "country": "French",
+            "foodPopularity": 97
+        },
+        {
+            "country": "Malaysian",
+            "foodPopularity": 77
+        }
+    ]
+}

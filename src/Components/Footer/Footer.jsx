@@ -7,7 +7,7 @@ const Footer = () => {
                 <div className="ml-5 font-medium">
                     <p className="text-xl font-semibold">Pritom Mohajon</p>
                     <p>A self learned Web Developer</p>
-                    <p>Dept. of CSTE, NSTU (2024)</p>
+                    <p>Dept. of CSTE, NSTU (2025)</p>
                 </div>
             </div>
         </div>

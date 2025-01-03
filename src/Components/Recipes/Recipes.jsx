@@ -52,7 +52,9 @@ const Recipes = () => {
                 (loading) ? (<div className="flex justify-center items-center h-screen">
                     <PacmanLoader color="#8F00FF" size={35} />
                 </div>) : (<div className="mt-5">
-                    <h1 className="text-3xl font-semibold">Japanese Recipes :</h1>
+                    <h1 className="text-center font-semibold text-3xl">This section shows the region and region wise recipes.</h1>
+
+                    <h1 className="text-3xl font-semibold mt-8">Japanese Recipes :</h1>
                     <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-7">
                         {
                             japaneserecipes.map(eachdish => <Japaneseitem key={eachdish.idMeal} eachdish={eachdish}></Japaneseitem>)
