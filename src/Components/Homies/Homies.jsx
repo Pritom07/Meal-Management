@@ -43,7 +43,7 @@ const Homies = () => {
                         <PacmanLoader color="#8F00FF" size={35} />
                     </div>
                 ) : (
-                    <div className="mx-3">
+                    <div className="mx-3 container px-3">
                         <div className="m-10 flex items-center justify-center">
                             <div className="join">
                                 <div>
@@ -62,7 +62,7 @@ const Homies = () => {
                         </div>
                         <div>
                             {
-                                (notfounditem) ? <Norecipefound></Norecipefound> : (<div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-6">
+                                (notfounditem) ? <Norecipefound></Norecipefound> : (<div className="grid lg:grid-cols-4 md:grid-cols-3  gap-6">
                                     {filteredRecipes.map(recipe => (
                                         <EachRecipe key={recipe.idMeal} recipe={recipe} />
                                     ))}
