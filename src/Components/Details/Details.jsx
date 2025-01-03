@@ -9,7 +9,7 @@ const Details = () => {
         navigate(-1);
     }
     return (
-        <div>
+        <div className="mt-6 px-1">
             {
                 details.map(selectivedetail => <div key={selectivedetail.idMeal} className="flex justify-center items-center mt-5">
                     <div className="card bg-base-100 w-96 h-[540px] shadow-xl">
