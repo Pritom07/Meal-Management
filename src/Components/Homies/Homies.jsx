@@ -43,7 +43,7 @@ const Homies = () => {
                         <PacmanLoader color="#8F00FF" size={35} />
                     </div>
                 ) : (
-                    <div>
+                    <div className="mx-3">
                         <div className="m-10 flex items-center justify-center">
                             <div className="join">
                                 <div>
