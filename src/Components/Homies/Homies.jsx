@@ -45,7 +45,7 @@ const Homies = () => {
                 ) : (
                     <div className="mx-3 container px-3">
                         <div className="m-10 flex items-center justify-center">
-                            <div className="join">
+                            <div className="join px-2">
                                 <div>
                                     <input
                                         className="input input-bordered join-item"
